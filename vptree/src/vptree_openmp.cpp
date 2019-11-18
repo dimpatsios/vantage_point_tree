@@ -57,7 +57,7 @@ namespace
 		int index(xID[i]);
 
 		if ( n == 1 ) {
-			T->vp = X;
+			T->vp = &X[index*d];
 			T->idx = index;
 			T->md = 0.;
 			T->inner = NULL;
